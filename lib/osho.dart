@@ -19,12 +19,3 @@ class Osho extends OshoRouter {
     return instance;
   }
 }
-
-/**
- * TODO:
- * Group routers under a RouteGroup
- * Client:
- *  Renderer
- *  API Bridge
- *  The page gets rendered based on data passed to the render method. when the data changes, call a method that rerenders the page.
- */
